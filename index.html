@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fawwaz | Unity Gameplay Programmer</title>
+  <meta name="description" content="Portfolio of Fawwaz, a Unity gameplay programmer building playable 2D and 3D games in C#.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="badge" href="#home" aria-label="Fawwaz, back to top">
+        <span class="badge-mark" aria-hidden="true">OA</span>
+        <span>Fawwaz</span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#collaborate">Collaborate</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <h1>Hi, I'm Fawwaz, a Unity Gameplay Programmer.</h1>
+          <p>I build playable 2D and 3D games with Unity and C#, focusing on responsive movement, enemy behaviour, and the systems that make a game feel good to play.</p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="#collaborate">Let's collaborate</a>
+            <a class="btn btn-secondary" href="#projects">See My Projects</a>
+          </div>
+        </div>
+        <div class="portrait">
+          <img src="assets/portrait.jpg" width="800" height="667" alt="Portrait of Fawwaz against a deep royal-blue background">
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>About</h2>
+        <p class="lead">I'm a cybersecurity student at Obafemi Awolowo University, graduating in 2029, and I'm teaching myself game development in Unity and C#. I started with Flappy Bird, then moved on to Pong and Asteroids through Harvard's CS50 and Animal Stampede through the Unity Junior Programmer Pathway. Today I keep learning through Udemy courses and by building games that are fun to play. My taste comes from indie games like Hollow Knight, where every jump and dash feels deliberate, and I want to make that responsiveness in my own work.</p>
+        <p class="lead">My most complete project so far is a 2D platformer where the goal is to reach the key at the end of the level. I programmed double jumps and dashes, patrolling and guarding enemy AI, damaging traps, out-of-bounds death lines, and a UI showing health, coins, and health pickups. I also did the level design and added fire-lamp lighting to tie the mechanics together. On the audio side, I built an audio manager with scriptable audio templates that don't depend on MonoBehaviour, so I can handle many sounds with custom volume and feature controls. I'm now building a 3D RPG where the player clicks anywhere to move and fight hordes of enemies. So far it has player movement, state machines, enemy AI, screen shake, tweening, and UI integration. I'm also using singletons and namespaces to keep a scalable architecture, for example a player controller that depends on separate movement and combat modules.</p>
+        <p class="lead">My security background shapes how I work. In a cybersecurity awareness hackathon (CTF), I took first place by identifying web application vulnerabilities, and that habit of asking how a system can fail carries over into debugging and testing my gameplay code. I'm looking for an internship, junior, or freelance gameplay programming role, remote, regional, or studio-based, where I can contribute to player movement, combat, enemy AI, and game feel while learning from an experienced team.</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul class="skills">
+          <li>Unity</li>
+          <li>C#</li>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>2D Game Development</li>
+          <li>Gameplay Programming</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="card-grid">
+          <article class="card">
+            <a class="card-link" href="projects/rise.html">
+              <img src="assets/rise-screenshot.jpg" width="1600" height="817" alt="Screenshot of RISE, a 2D platformer: the player character stands beside a START sign in a purple-lit forest level, with a health pickup, an enemy, and a lit candelabra ahead">
+              <div class="card-body">
+                <h3 class="card-title">RISE: 2D Platformer</h3>
+                <p>A Unity and C# 2D platformer with dash movement, enemy AI, and dynamic lighting.</p>
+              </div>
+            </a>
+          </article>
+
+          <!-- Reserved slots. Replace with a real card (same markup as RISE)
+               once the owner supplies content, and add a page from
+               projects/project-template.html. -->
+          <article class="card unavailable" aria-label="Project 2, coming soon">
+            <div class="placeholder-art" aria-hidden="true">Coming soon</div>
+            <div class="card-body">
+              <h3 class="card-title">Project 2</h3>
+              <p>Not available yet.</p>
+            </div>
+          </article>
+          <article class="card unavailable" aria-label="Project 3, coming soon">
+            <div class="placeholder-art" aria-hidden="true">Coming soon</div>
+            <div class="card-body">
+              <h3 class="card-title">Project 3</h3>
+              <p>Not available yet.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="collaborate">
+      <div class="container">
+        <h2>Let's collaborate</h2>
+        <p class="lead">Have a game idea, a team, a project, or a role you think I could help with? I would like to hear about it. Send a message and we can talk through what you have in mind.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="#contact">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <ul class="contact-list">
+          <li>Email: <a href="mailto:fawwazolalekan0@gmail.com">fawwazolalekan0@gmail.com</a></li>
+          <li>WhatsApp: <a href="https://wa.me/2349137972747" target="_blank" rel="noopener noreferrer">Message me on WhatsApp</a></li>
+          <li>GitHub: <a href="https://github.com/Godzencode" target="_blank" rel="noopener noreferrer">github.com/Godzencode</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/fawwaz-olalekan-0b5a713a6" target="_blank" rel="noopener noreferrer">linkedin.com/in/fawwaz-olalekan-0b5a713a6</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Fawwaz. Unity Gameplay Programmer.</p>
+    </div>
+  </footer>
+</body>
+</html>
